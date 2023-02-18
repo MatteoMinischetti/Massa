@@ -5,7 +5,7 @@ Note
 In questo momento 4 core e 8 GB di RAM dovrebbero essere sufficienti per eseguire un nodo. In futuro questo ammontare di risorse potrebbe non essere sufficiente.
 Maggiori informazioni nelle FAQ.
 
-## Installazione dai files eseguibili binari (installazione semplice)
+## Installazione utilizzando i files eseguibili binari (installazione semplice)
  
 
 Se vuoi solo eseguire un nodo Massa senza doverlo compilare,  puoi semplicemente scaricare l'ultimo binario qui sotto e andare al passo successivo: 
@@ -17,17 +17,28 @@ Eseguire un nodo.
 [Eseguibile Linux](https://github.com/massalabs/massa/releases/download/TEST.19.3/massa_TEST.19.3_release_linux.tar.gz)  Funziona solo a partire dalla versione 2.28 di libc (per esempio Ubuntu 20.04 e versioni successive)
 
 [Eseguibile MacOS](https://github.com/massalabs/massa/releases/download/TEST.19.3/massa_TEST.19.3_release_macos.tar.gz)
-From source code (advanced installation)
 
-Otherwise, if you wish to run a Massa node from source code, here are the steps to follow:
 
-On Ubuntu / MacOS
+## Installazione avanzata compilando i files sorgenti
 
-on Ubuntu, these libs must be installed: sudo apt install pkg-config curl git build-essential libssl-dev libclang-dev
-on MacOS: brew install llvm
-install rustup: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-configure path: source $HOME/.cargo/env
-check rust version: rustc --version
+
+Se si desidera eseguire un nodo Massa dal codice sorgente, ecco i passaggi da seguire:
+
+### Ubuntu / MacOS
+
+Installazione delle librerie necessarie:
+su Ubuntu: sudo apt install pkg-config curl git build-essential libssl-dev libclang-dev
+su MacOS: brew install llvm
+
+Installare rustup:
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+Configurare la variabile di path:
+source $HOME/.cargo/env
+
+controllare la versione di rust: 
+rustc --version
+
 install nigthly: rustup toolchain install nightly-2023-01-30
 set it as default: rustup default nightly-2023-01-30
 check rust version: rustc --version

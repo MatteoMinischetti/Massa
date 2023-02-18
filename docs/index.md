@@ -26,46 +26,44 @@ Se si desidera eseguire un nodo Massa dal codice sorgente, ecco i passaggi da se
 
 ### Ubuntu / MacOS
 
-Installazione delle librerie necessarie:
-
-su Ubuntu: 
+Installazione delle librerie necessarie su Ubuntu: 
 ```sudo apt install pkg-config curl git build-essential libssl-dev libclang-dev```
 
-su MacOS: 
+Installazione delle librerie necessarie su MacOS: 
 ```brew install llvm```
 
 
 Installare rustup: 
-**curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh**
+```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh```
 
 
 Configurare la variabile di path: 
-**source $HOME/.cargo/env**
+```source $HOME/.cargo/env```
 
 
 controllare la versione di rust: 
-rustc --version
+```rustc --version```
 
 
 installare la versione nigthly: 
-rustup toolchain install nightly-2023-01-30
+```rustup toolchain install nightly-2023-01-30```
 
 
-set it as default: 
-rustup default nightly-2023-01-30
+configurare la versione nightly come default: 
+```rustup default nightly-2023-01-30```
 
 
-check rust version: 
-rustc --version
+controllare la verione di rust: 
+```rustc --version```
 
 
-clone this repo: 
-git clone --branch testnet https://github.com/massalabs/massa.git
+clonare il repository: 
+```git clone --branch testnet https://github.com/massalabs/massa.git```
 
 
 ### Windows
 
-Set up your Rust environment
+Configurare l'ambiente Rust
 
 On Windows, you should first follow the indications from Microsoft to be able to run on a Rust environment here.
 Install Visual Studio (recommended) or the Microsoft C++ Build Tools.

@@ -30,6 +30,7 @@ Installazione delle librerie necessarie:
 su Ubuntu: sudo apt install pkg-config curl git build-essential libssl-dev libclang-dev
 su MacOS: brew install llvm
 
+
 Installare rustup:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 

@@ -13,6 +13,7 @@ Eseguire un nodo.
 
  
 [Eseguibile Windows](https://github.com/massalabs/massa/releases/download/TEST.19.3/massa_TEST.19.3_release_windows.zip)
+
 [Eseguibile Linux](https://github.com/massalabs/massa/releases/download/TEST.19.3/massa_TEST.19.3_release_linux.tar.gz)  Funziona solo a partire dalla versione 2.28 di libc (per esempio Ubuntu 20.04 e versioni successive)
 
 MacOS binary

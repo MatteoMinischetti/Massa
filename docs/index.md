@@ -24,7 +24,7 @@ Eseguire un nodo.
 
 Se si desidera eseguire un nodo Massa dal codice sorgente, ecco i passaggi da seguire:
 
-### Ubuntu / MacOS
+`rgb(9, 105, 218)` ### Ubuntu / MacOS
 
 Installazione delle librerie necessarie:
 

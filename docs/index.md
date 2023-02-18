@@ -31,17 +31,10 @@ su Ubuntu: sudo apt install pkg-config curl git build-essential libssl-dev libcl
 su MacOS: brew install llvm
 
 
-Installare rustup:
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
-Configurare la variabile di path:
-
-source $HOME/.cargo/env
-
-controllare la versione di rust: 
-rustc --version
-
-install nigthly: rustup toolchain install nightly-2023-01-30
+Installare rustup: **curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh**
+Configurare la variabile di path: **source $HOME/.cargo/env**
+controllare la versione di rust: rustc --version
+installare la versione nigthly: rustup toolchain install nightly-2023-01-30
 set it as default: rustup default nightly-2023-01-30
 check rust version: rustc --version
 clone this repo: git clone --branch testnet https://github.com/massalabs/massa.git

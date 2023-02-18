@@ -24,15 +24,15 @@ Eseguire un nodo.
 
 Se si desidera eseguire un nodo Massa dal codice sorgente, ecco i passaggi da seguire:
 
-`rgb(9, 105, 218)` ### Ubuntu / MacOS
+### Ubuntu / MacOS
 
 Installazione delle librerie necessarie:
 
 su Ubuntu: 
-sudo apt install pkg-config curl git build-essential libssl-dev libclang-dev
+```sudo apt install pkg-config curl git build-essential libssl-dev libclang-dev```
 
 su MacOS: 
-brew install llvm
+```brew install llvm```
 
 
 Installare rustup: 

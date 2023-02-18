@@ -12,8 +12,9 @@ Se vuoi solo eseguire un nodo Massa senza doverlo compilare,  puoi semplicemente
 Eseguire un nodo.
 
  
-Windows executable
-Linux binary - only works with libc2.28 at least (for example Ubuntu 20.04 and higher)
+[Eseguibile Windows](https://github.com/massalabs/massa/releases/download/TEST.19.3/massa_TEST.19.3_release_windows.zip)
+[Eseguibile Linux](https://github.com/massalabs/massa/releases/download/TEST.19.3/massa_TEST.19.3_release_linux.tar.gz)  Funziona solo a partire dalla versione 2.28 di libc (per esempio Ubuntu 20.04 e versioni successive)
+
 MacOS binary
 From source code (advanced installation)
 

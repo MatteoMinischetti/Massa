@@ -58,13 +58,19 @@ clonare il repository:
 
 Configurare l'ambiente Rust
 
-On Windows, you should first follow the indications from Microsoft to be able to run on a Rust environment here.
-Install Visual Studio (recommended) or the Microsoft C++ Build Tools.
-Once Visual Studio is installed, click on C++ Build Tool. Select on the right column called “installation details” the following packages:
-MSCV v142 – VS 2019
-Windows 10 SDK
-C++ CMake tools for Windows
-Testing Tools Core Feature
+Come prima indicazione, devi seguire le [istruzioni di Microsoft](https://docs.microsoft.com/en-gb/windows/dev-environment/rust/setup) per configurare un ambiente RUST.
+
+Installare Visual Studio (raccomandato) oppure i Microsoft C++ Build Tools.
+
+Una volta che Visual Studio è installato, cliccare su C++ Build Tool. 
+
+Nella colonna di destra denominata “installation details” selezionare i seguenti pacchetti: 
+
++ MSCV v142 – VS 2019
++ Windows 10 SDK
++ C++ CMake tools for Windows
++ Testing Tools Core Feature
+
 Click install on the bottom right to download and install those packages
 Install Chocolatey and run: choco install llvm
 Install Rust, to be downloaded here

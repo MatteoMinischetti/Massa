@@ -50,13 +50,13 @@ configurare la versione nightly come default:
 controllare la verione di rust: 
 ```rustc --version```
 
-clonare il repository: 
+clonare il repository di MASSA: 
 ```git clone --branch testnet https://github.com/massalabs/massa.git```
 
 
 ### Windows
 
-Configurare l'ambiente Rust
+#### Configurare l'ambiente Rust
 
 Come prima indicazione, devi seguire le [istruzioni di Microsoft](https://docs.microsoft.com/en-gb/windows/dev-environment/rust/setup) per configurare un ambiente RUST.
 
@@ -71,12 +71,20 @@ Nella colonna di destra denominata “installation details” selezionare i segu
 + C++ CMake tools for Windows
 + Testing Tools Core Feature
 
-Click install on the bottom right to download and install those packages
-Install Chocolatey and run: choco install llvm
-Install Rust, to be downloaded here
-Install Git for windows, to be downloaded here
-Clone the Massa Git Repository
+Fai clic su installa in basso a destra per scaricare e installare questi pacchetti
 
-Open Windows Power Shell
-Clone the latest distributed version: git clone --branch testnet https://github.com/massalabs/massa.git
-Change default Rust to nightly: rustup default nightly-2023-01-30
+Installare Chocolatey ed eseguirlo: 
+```choco install llvm```
+
+Installare Rust, scaricandolo da [qui](https://www.rust-lang.org/tools/install)  
+
+Installare Git for windows,scaricandolo da [qui](https://git-scm.com/download/win)
+
+#### Clonare il repository Git di MASSA
+
+Eseguire Windows Power Shell
+Clonare l'ultima versione distribuita: 
+```git clone --branch testnet https://github.com/massalabs/massa.git```
+
+Configurare l'esecuzione della versione nightly di Rust come default: 
+```rustup default nightly-2023-01-30```

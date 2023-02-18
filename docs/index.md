@@ -83,6 +83,7 @@ Installare Git for windows,scaricandolo da [qui](https://git-scm.com/download/wi
 #### Clonare il repository Git di MASSA
 
 Eseguire Windows Power Shell
+
 Clonare l'ultima versione distribuita: 
 ```git clone --branch testnet https://github.com/massalabs/massa.git```
 

@@ -1,4 +1,4 @@
-# INSTALLAZIONE DI UN NODO
+# INSTALLAZIONE DI UN NODO MASSA :mechanical_arm:
 
 Note
 

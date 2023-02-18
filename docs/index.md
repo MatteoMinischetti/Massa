@@ -1,11 +1,11 @@
-INSTALLAZIONE DI UN NODO
+# INSTALLAZIONE DI UN NODO
 
 Note
 
 In questo momento 4 core e 8 GB di RAM dovrebbero essere sufficienti per eseguire un nodo. In futuro questo ammontare di risorse potrebbe non essere sufficiente.
 Maggiori informazioni nelle FAQ.
 
-Installazione dai files eseguibili binari (installazione semplice)
+## Installazione dai files eseguibili binari (installazione semplice)
  
 
 Se vuoi solo eseguire un nodo Massa senza doverlo compilare,  puoi semplicemente scaricare l'ultimo binario qui sotto e andare al passo successivo: 
@@ -16,7 +16,7 @@ Eseguire un nodo.
 
 [Eseguibile Linux](https://github.com/massalabs/massa/releases/download/TEST.19.3/massa_TEST.19.3_release_linux.tar.gz)  Funziona solo a partire dalla versione 2.28 di libc (per esempio Ubuntu 20.04 e versioni successive)
 
-MacOS binary
+[Eseguibile MacOS](https://github.com/massalabs/massa/releases/download/TEST.19.3/massa_TEST.19.3_release_macos.tar.gz)
 From source code (advanced installation)
 
 Otherwise, if you wish to run a Massa node from source code, here are the steps to follow:

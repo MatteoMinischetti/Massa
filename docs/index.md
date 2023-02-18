@@ -28,27 +28,27 @@ Se si desidera eseguire un nodo Massa dal codice sorgente, ecco i passaggi da se
 
 Installazione delle librerie necessarie su Ubuntu: 
 ```sudo apt install pkg-config curl git build-essential libssl-dev libclang-dev```
+
 Installazione delle librerie necessarie su MacOS: 
 ```brew install llvm```
+
 Installare rustup: 
 ```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh```
+
 Configurare la variabile di path: 
 ```source $HOME/.cargo/env```
+
 controllare la versione di rust: 
 ```rustc --version```
-
 
 installare la versione nigthly: 
 ```rustup toolchain install nightly-2023-01-30```
 
-
 configurare la versione nightly come default: 
 ```rustup default nightly-2023-01-30```
 
-
 controllare la verione di rust: 
 ```rustc --version```
-
 
 clonare il repository: 
 ```git clone --branch testnet https://github.com/massalabs/massa.git```
